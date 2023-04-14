@@ -27,3 +27,13 @@ Once you have built the Java application using Maven with the mvn package comman
 
 Replace ```<path_to_grades.txt_file>``` with the absolute or relative path to your grades.txt file.
 
+<br>
+
+## The output should be this:
+
+<h1 align="center">
+
+![image](https://user-images.githubusercontent.com/93339789/232133967-1a536a64-52b8-47e0-b30f-59e01be2e61b.png)
+
+</h1>
+
