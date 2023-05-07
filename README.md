@@ -33,6 +33,7 @@ Replace ```<path_to_grades.txt_file>``` with the absolute or relative path to yo
 
 <h1 align="center">
 
-![image](https://user-images.githubusercontent.com/93339789/236013529-7aadd1f9-1210-49f9-b949-d86b8e2853b2.png)
+![image](https://user-images.githubusercontent.com/93339789/236683213-8faa2622-0b2f-4717-97b2-01725a83720a.png)
+
 </h1>
 
