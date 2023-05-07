@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.metadata/
+apache-maven-3.8.5-bin
+
+# other folders
+target
+.idea
+/seip2023_practical_assignments/seip2023_practical_assignments.iml
