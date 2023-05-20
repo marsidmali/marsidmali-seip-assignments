@@ -1,3 +1,7 @@
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Language: Java](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
+
 
 # **Grades Histogram Java Application**
 
