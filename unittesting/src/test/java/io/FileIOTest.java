@@ -1,4 +1,5 @@
 package io;
+
 /**
  * @author  Marsid Mali
  * @version 1.0
@@ -39,8 +40,7 @@ public class FileIOTest {
     @Test
     public void testReadFileContainsInvalidEntries() {
         int[] expectedNumbers = {8, 1, 13, 4, 0};
-        String validPath = resourcesPath.concat("test_read_file_contains_invalid_entries.txt");
-        Assert.assertArrayEquals(expectedNumbers, fileIO.readFile(validPath));
+        Assert.assertArrayEquals(expectedNumbers, fileIO.readFile(resourcesPath.concat("test_read_file_contains_invalid_entries.txt")));
     }
 }
 

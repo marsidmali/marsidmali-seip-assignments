@@ -12,7 +12,7 @@
 
     <packaging>pom</packaging>
     <name>SEIP assignments 2023</name>
-    <description>This project contains all the assingments for Software Engineering in practice course.</description>
+    <description>This project contains all the assignments for Software Engineering in practice course.</description>
 
     <modules>
         <module>gradeshistogram</module>
