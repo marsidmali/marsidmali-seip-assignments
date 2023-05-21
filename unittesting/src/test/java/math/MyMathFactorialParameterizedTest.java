@@ -1,9 +1,5 @@
 package math;
-/**
- * @author  Marsid Mali
- * @version 1.0
- * @since   2023-05-20
- */
+
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +9,11 @@ import org.junit.runners.Parameterized.Parameters;
 import java.util.Arrays;
 import java.util.Collection;
 
+/**
+ * @author  Marsid Mali
+ * @version 1.0
+ * @since   2023-05-20
+ */
 @RunWith(Parameterized.class)
 public class MyMathFactorialParameterizedTest {
     @Parameter()

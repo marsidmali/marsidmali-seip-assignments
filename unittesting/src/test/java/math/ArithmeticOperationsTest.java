@@ -1,14 +1,15 @@
 package math;
-/**
- * @author  Marsid Mali
- * @version 1.0
- * @since   2023-05-20
- */
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import static org.junit.Assert.assertEquals;
 
+/**
+ * @author  Marsid Mali
+ * @version 1.0
+ * @since   2023-05-20
+ */
 public class ArithmeticOperationsTest {
 
     ArithmeticOperations arithmeticOperations = new ArithmeticOperations();

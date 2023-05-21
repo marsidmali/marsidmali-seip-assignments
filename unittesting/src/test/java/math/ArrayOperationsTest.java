@@ -1,15 +1,16 @@
 package math;
-/**
- * @author  Marsid Mali
- * @version 1.0
- * @since   2023-05-20
- */
+
 import io.FileIO;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * @author  Marsid Mali
+ * @version 1.0
+ * @since   2023-05-20
+ */
 public class ArrayOperationsTest {
 
     ArrayOperations arrayOperations = new ArrayOperations();

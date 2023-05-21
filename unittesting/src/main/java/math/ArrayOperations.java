@@ -1,12 +1,13 @@
 package math;
+
+import io.FileIO;
+import java.util.ArrayList;
+
 /**
  * @author  Marsid Mali
  * @version 1.0
  * @since   2023-05-20
  */
-import io.FileIO;
-import java.util.ArrayList;
-
 public class ArrayOperations {
     /**
      * Finds the prime numbers in a file and returns them in an array.

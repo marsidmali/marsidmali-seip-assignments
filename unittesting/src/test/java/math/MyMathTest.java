@@ -1,14 +1,15 @@
 package math;
-/**
- * @author  Marsid Mali
- * @version 1.0
- * @since   2023-05-20
- */
+
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+/**
+ * @author  Marsid Mali
+ * @version 1.0
+ * @since   2023-05-20
+ */
 public class MyMathTest {
     MyMath myMath = new MyMath();
 
