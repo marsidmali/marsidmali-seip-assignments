@@ -1,4 +1,4 @@
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg) 
+[![Java CI](https://github.com/marsidmali/marsidmali-seip-assignments/actions/workflows/main.yml/badge.svg)](https://github.com/marsidmali/marsidmali-seip-assignments/actions/workflows/main.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Java](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
 
