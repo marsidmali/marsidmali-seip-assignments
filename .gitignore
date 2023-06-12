@@ -29,3 +29,4 @@ target
 .idea
 /seip2023_practical_assignments/seip2023_practical_assignments.iml
 /unittesting/src/main/resources/
+/metrics_results.csv
