@@ -1,9 +1,18 @@
 package codeanalyzer.MetricsExporter;
 
 /**
- * The MetricsExporterFactory class is responsible for creating instances of MetricsExporter.
- * It provides the createMetricsExporter method to create a MetricsExporter based on the given type.
+ * The MetricsExporterFactory class is responsible for creating instances of
+ * different types of MetricsExporter based on the requested type.
+ * It provides a method to create a specific type of MetricsExporter.
+ * The available exporter types are "csv" and "json".
  * If an invalid type is requested, it throws an IllegalArgumentException.
+ *
+ * This class follows the Factory design pattern.
+ * The createMetricsExporter method returns an instance of the requested exporter type.
+ *
+ * @see MetricsExporter
+ * @see CSVExporter
+ * @see JSONExporter
  *
  * @author  Marsid Mali
  * @version 1.0
@@ -12,12 +21,11 @@ package codeanalyzer.MetricsExporter;
 public class MetricsExporterFactory {
 
     /**
-     * Creates a MetricsExporter instance based on the given type.
-     * Supported types are "csv" and "json"(json is not implemented yet). If an unsupported type is provided,
-     * a NullExporter instance is returned.
+     * Creates a MetricsExporter object based on the specified exporter type.
      *
-     * @param type the type of the MetricsExporter to create
-     * @return a MetricsExporter instance
+     * @param type the type of the metrics exporter
+     * @return the created MetricsExporter object
+     * @throws IllegalArgumentException if the exporter type is invalid
      */
     public MetricsExporter createMetricsExporter(String type) {
         if (type.equalsIgnoreCase("csv")) {

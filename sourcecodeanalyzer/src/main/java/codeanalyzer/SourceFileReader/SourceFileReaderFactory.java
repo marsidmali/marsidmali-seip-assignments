@@ -1,8 +1,18 @@
 package codeanalyzer.SourceFileReader;
 
 /**
- * The SourceFileReaderFactory class is responsible for creating instances of SourceFileReader.
- * It provides the createSourceFileReader method to create a SourceFileReader based on the given type.
+ * The SourceFileReaderFactory class is responsible for creating instances of
+ * different types of SourceFileReader based on the requested type.
+ * It provides a method to create a specific type of SourceFileReader.
+ * The available reader types are "local" and "web".
+ * If an invalid type is requested, it throws an IllegalArgumentException.
+ *
+ * This class follows the Factory design pattern.
+ * The createSourceFileReader method returns an instance of the requested reader type.
+ *
+ * @see SourceFileReader
+ * @see LocalFileReader
+ * @see WebFileReader
  *
  * @author  Marsid Mali
  * @version 1.0
@@ -11,12 +21,11 @@ package codeanalyzer.SourceFileReader;
 public class SourceFileReaderFactory {
 
     /**
-     * Creates a SourceFileReader instance based on the given type.
-     * Supported types are "local" and "web". If an unsupported type is provided,
-     * a NullFileReader instance is returned.
+     * Creates a SourceFileReader object based on the specified reader type.
      *
-     * @param type the type of the SourceFileReader to create
-     * @return a SourceFileReader instance
+     * @param type the type of the source file reader
+     * @return the created SourceFileReader object
+     * @throws IllegalArgumentException if the reader type is invalid
      */
     public SourceFileReader createSourceFileReader(String type) {
         if (type.equalsIgnoreCase("local")) {
