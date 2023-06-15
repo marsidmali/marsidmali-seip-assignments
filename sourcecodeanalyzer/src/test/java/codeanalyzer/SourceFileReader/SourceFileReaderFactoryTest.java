@@ -22,4 +22,9 @@ public class SourceFileReaderFactoryTest {
         SourceFileReader web = sff.createSourceFileReader("web");
         assertTrue(web instanceof WebFileReader);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testCreateSourceFileReaderInvalidType() {
+        sff.createSourceFileReader("invalid");
+    }
 }

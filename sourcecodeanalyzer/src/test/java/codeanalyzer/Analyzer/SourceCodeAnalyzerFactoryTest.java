@@ -32,4 +32,9 @@ public class SourceCodeAnalyzerFactoryTest {
         SourceCodeAnalyzer strcompAnalyzer = factory.createSourceCodeAnalyzer("strcomp", fileReader);
         assertTrue(strcompAnalyzer instanceof StringComparisonAnalyzer);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testCreateSourceCodeAnalyzerInvalidType() {
+        factory.createSourceCodeAnalyzer("invalid", fileReader);
+    }
 }

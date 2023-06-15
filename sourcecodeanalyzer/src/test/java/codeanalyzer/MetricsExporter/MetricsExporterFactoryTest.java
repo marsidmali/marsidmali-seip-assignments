@@ -22,4 +22,9 @@ public class MetricsExporterFactoryTest {
         MetricsExporter json = mef.createMetricsExporter("json");
         assertTrue(json instanceof JSONExporter);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testCreateMetricsExporterInvalidType() {
+        mef.createMetricsExporter("invalid");
+    }
 }
