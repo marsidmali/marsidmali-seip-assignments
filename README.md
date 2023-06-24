@@ -2,12 +2,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Java](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
 
+# Repository Overview
 
-# **Grades Histogram Java Application**
+This repository contains lab assignments for the Applied Software Engineering course 2023, organized into three distinct modules:
 
-## About the project
+1. [**Grade Histogram**](https://github.com/marsidmali/marsidmali-seip-assignments/tree/development/gradeshistogram): A module that creates a histogram to visualize student grades from a provided file.
+2. [**UnitTesting Project**](https://github.com/marsidmali/marsidmali-seip-assignments/tree/development/unittesting): A module that demonstrates the use of JUnit for effective unit testing.
+3. [**Refactored Sourcecode Analyzer**](https://github.com/marsidmali/marsidmali-seip-assignments/tree/development/sourcecodeanalyzer): A module that delves into the application of design principles and various software design patterns.
 
-The project is a Java application that reads a file containing student grades and generates a histogram representing the distribution of grades. The application is built using the Maven build automation tool, which simplifies the build process by managing dependencies and compiling the source code.
+## Technologies used
+
+1. **Java**: The project is written in Java, a popular, versatile, and object-oriented programming language.
+2. **JUnit**: A widely-used testing framework for Java applications, JUnit is employed to write and run unit tests.
+3. **JaCoCo**: Java Code Coverage Library (JaCoCo) is a code coverage tool that measures the percentage of code executed during testing, helping to identify areas that require additional testing.
+4. **Mockito**: A mocking framework for Java, Mockito is used to create and configure mock objects for unit testing.
+5. **GitHub Actions**: a powerful workflow automation tool that allows you to automate tasks and build, test, and deploy your code directly from your repository.
 
 ## Requirements
 To run this application, you need to have the following software installed on your system:
@@ -17,27 +26,16 @@ To run this application, you need to have the following software installed on yo
 
 ## Usage
 1. Clone this repository to your local machine.
-2. Navigate to the project root directory.
 
-## Running the Program
-To compile your source code, run any tests, and package your application into a JAR file, run:
+```
+git clone https://github.com/marsidmali/marsidmali-seip-assignments
+```
+
+## Running  and Building the Project
+To compile your source code, run any tests, and package your applications into JAR files, run:
      
     mvn package
 
-Once you have built the Java application using Maven with the mvn package command, you can run the application with the following command: 
 
-    java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar <path_to_grades.txt_file>
-
-
-Replace ```<path_to_grades.txt_file>``` with the absolute or relative path to your grades.txt file.
-
-<br>
-
-## The output should be this:
-
-<h1 align="center">
-
-![image](https://user-images.githubusercontent.com/93339789/236683213-8faa2622-0b2f-4717-97b2-01725a83720a.png)
-
-</h1>
-
+## License
+This repository is licensed under the [MIT License.](https://github.com/marsidmali/marsidmali-seip-assignments/blob/development/LICENSE)
